@@ -52,3 +52,8 @@ docker-compose up -d
 ## Stack usado
 * mongoDB
 * Nest
+
+#Notas
+Heroku redeploy son cambios
+
+git commit --allow-empty -m "Tigheroku"
