@@ -14,7 +14,7 @@ import { JoiValidationSchema } from './config/joi.validatios';
   imports: [
     ConfigModule.forRoot({
       load: [EnvConfiguration],
-      validationSchema: JoiValidationSchema
+      validationSchema: JoiValidationSchema,
     }),
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
@@ -30,8 +30,6 @@ import { JoiValidationSchema } from './config/joi.validatios';
 
   ],
 })
-export class AppModule {
- 
-}
+export class AppModule {}
 
 
